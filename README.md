@@ -1,36 +1,36 @@
 # mpv-copyStuff
 
-This script copies to clipboard the:
-- Filename (With Extension) or URL Link
-- Full Filename Path
-- Current Video Time (HH:MM:SS.MS)
-- Current Displayed Subtitle Text
+Bu script panoya kopyalar:
+- Dosya Adı (Uzantısı ile) veya URL Linki
+- Tam Dosya Adı Yolu
+- Geçerli Video Süresi (HH:MM:SS.MS)
+- Geçerli Gösterilen Altyazı Metni
 - Video Metadata
 
 ## Installation
 
-Put the script `copyStuff.lua` in your scripts folder, usually in:
+Script dosyasını `copyStuff.lua` scripts klasörünüze koyun, genellikle:
 - Windows: `"C:\Users\Username\AppData\Roaming\mpv\scripts"`.
-- Linux and MacOS: `"~/.config/mpv/scripts/"`.
+- Linux ve MacOS: `"~/.config/mpv/scripts/"`.
 
-To work, the script needs:
+Scriptin çalışabilmesi için:
 - Windows: `Powershell`.
 - Linux/X11: `xclip`.
-- Linux/Wayland : `xclip` or `wl-clipboard`.
-- MacOS: `pbcopy` (not tested).
+- Linux/Wayland : `xclip` veya `wl-clipboard`.
+- MacOS: `pbcopy` (test edilmedi).
 
 ## Hotkeys
 
 <div align="center">
 
-| What is Copied                       | Hotkey     |
-| ------------------------------------ | ---------- |
-| **Filename or URL Link**             | **CTRL+f** |
-| **Full Filename Path**               | **CTRL+p** |
-| **Current Video Time (HH:MM:SS.MS)** | **CTRL+t** |
-| **Current Displayed Subtitle Text**  | **CTRL+s** |
-| **Video Duration**                   | **CTRL+d** |
-| **Video Metadata**                   | **CTRL+m** |
+| Kopyalanan                          | Hotkey     |
+| ----------------------------------- | ---------- |
+| **Dosya Adı veya URL Linki**        | **CTRL+f** |
+| **Tam Dosya Adı Yolu**              | **CTRL+p** |
+| **Geçerli Video Süresi (HH:MM:SS.MS)** | **CTRL+t** |
+| **Geçerli Gösterilen Altyazı Metni** | **CTRL+s** |
+| **Video Süresi**                    | **CTRL+d** |
+| **Video Metadata**                  | **CTRL+m** |
 
 </div>
 
